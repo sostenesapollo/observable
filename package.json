@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "dev": "tsnd --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.1"
+  }
+}
