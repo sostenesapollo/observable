@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/node": "^18.16.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.4"
   },
@@ -7,6 +8,7 @@
     "dev": "tsnd --transpile-only --ignore-watch node_modules src/server.ts"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "nodemailer": "^6.9.1"
   }
 }
