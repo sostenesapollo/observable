@@ -8,4 +8,6 @@ const subject = new Subject()
 new OrderObserver(subject)
 
 subject.setValue('iPhone')
+subject.setValue('Camiseta')
+subject.setValue('Bolsa')
 
